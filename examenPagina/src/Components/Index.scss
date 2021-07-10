@@ -1,0 +1,19 @@
+.listClientes{
+    ul {
+		font-size: 30px;
+
+		li {
+			text-align: center;
+
+			a {
+				background: none;
+				border: none;
+				color: green;
+				display: inline-block;
+				margin: 0 auto;
+				padding: 10px;
+				width: auto;
+			}
+		}
+	}
+}

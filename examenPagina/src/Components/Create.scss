@@ -1,0 +1,32 @@
+.formularioprestamo {
+	margin: 0 auto;
+	width: 500px;
+
+	form {
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px;
+		width: 100%;
+
+		label,
+		input {
+			width: 100%;
+		}
+
+		input {
+			border: 2px solid yellowgreen;
+			margin: 20px;
+			padding: 10px;
+            list-style: none;
+		}
+
+		input[type="submit"] {
+			margin: 30px 40px;
+			padding: 20px 30px;
+			width: 200px;
+		}
+	}
+}
